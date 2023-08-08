@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* ESTILOS GERAIS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(228,231,2);
+    background: linear-gradient(158deg, rgba(228,231,2,1) 0%, rgba(253,29,29,1) 50%, rgba(161,19,189,1) 100%);
+}
+
+.container {
+    width: 410px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 30px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.918);
+    cursor: pointer;
+}
+
+
+
+/* ESTILOS TOPO *************************************/
+
+.topo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.img-topo {
+    display: flex;
+    align-items: center;
+}
+
+.img-topo img {
+    width: 115px;
+}
+
+.icons-topo {
+    font-size: 23px;
+
+}
+
+.icons-topo i {
+    margin-left: 10px;
+}
+/* ESTILOS STORYS ************************************/
+
+.storys {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    border-bottom: 1px solid #cccccc21;
+}
+
+.storys .perfil-eu img {
+    width: 60px;
+    border-radius: 50%;
+    border: 4px solid rgb(192, 10, 86);
+}
+
+.storys .perfil img {
+    width: 60px;
+    border-radius: 50%;
+    border: 4px solid rgb(0, 128, 0);
+}
+
+.storys .perfil p, .perfil-eu p {
+    font-size: 12px;
+    text-align: center;
+    padding-top: 5px;
+    margin-bottom: 10px;
+}
+
+/* ESTILOS PERFIL FOTOS ******************************/
+
+.topo-fotos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    padding: 0 20px;
+}
+
+.topo-fotos .img-fotos {
+    display: flex;
+    align-items: center;
+}
+
+.topo-fotos .img-fotos img {
+    width: 35px;
+    border-radius: 50%;
+    border: 3px solid rgb(192, 10, 86);
+}
+
+.topo-fotos .img-fotos p {
+    padding-left: 10px;
+}
+
+.postagem img {
+    align-items: center;
+    width: 95%;
+    margin-top: 5px;
+    padding-left: 20px;
+}
+
+.feedbeck-fotos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+    padding: 0 20px;
+}
+
+.feedbeck-fotos .react {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+
+    font-size: 23px;
+}
+
+.feedbeck-fotos .flag {
+    font-size: 23px;
+}
+/* CURTIDAS *********************************************/
+
+.curtidas {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin-top: 10px;
+    padding: 0 20px;
+}
+
+p.comentarios {
+    color: #a3a1a1;
+}
+
+.curtidas .add-comentario {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-top: 5px;
+}
+
+.curtidas .add-comentario img {
+    width: 25px;
+}
+
+.curtidas .add-comentario input {
+    background: none;
+    outline: none;
+    border: none;
+    color: #a3a1a1;
+}
+
+.curtidas .data-comentarios {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.curtidas p.comentarios-dias {
+    font-size: 12px;
+    color: #a3a1a1;
+}
+
+.curtidas .data-comentarios span {
+    font-size: 12px;
+}
+/* FOOTER *********************************************/
+.footer {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 15px;
+    padding: 10px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.footer .icons-footer i {
+    font-size: 23px;
+}
